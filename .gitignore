@@ -1,0 +1,8 @@
+/target
+.vscode
+.env
+Cargo.lock
+
+TODO.md
+binance
+json

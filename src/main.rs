@@ -9,8 +9,7 @@ use std::sync::{Arc, Mutex};
 
 #[tokio::main]
 async fn main() {
-    // depth 1, 5, 10, 25, 50
-    // let imbalance_ranges = Arc::new(Mutex::new(HashMap::<String, f64>::new()));
+    // depths: 1, 5, 10, 25, 50
     let imbalance_ranges = Arc::new(Mutex::new(HashMap::<String, [f64;5]>::new()));
 
     let symbols = vec!["BTCUSDT".to_string(), "ETHUSDT".to_string()];

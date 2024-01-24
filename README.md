@@ -3,8 +3,7 @@ Calculate & plot orderbook imbalances using Rust & Python
 
 ## Getting started
 1. Create `.env` file and add your database url as **DATABASE_URL**
-2. `cargo build`
-3. Run script
+2. `$ cargo run`
 4. Plot imbalance using the notebook
 
 ## Results
